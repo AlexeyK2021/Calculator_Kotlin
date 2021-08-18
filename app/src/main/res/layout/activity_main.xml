@@ -5,7 +5,8 @@
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		tools:context=".MainActivity"
-		android:orientation="vertical">
+		android:orientation="vertical"
+		android:background="@color/black">
 
 	<TextView
 			android:id="@+id/math_word"
@@ -22,7 +23,7 @@
 			android:layout_height="50dp"
 			android:gravity="end"
 			android:textColor="@color/black"
-			android:layout_marginBottom="25dp">
+			android:layout_marginBottom="150dp">
 	</TextView>
 
 	<LinearLayout
@@ -39,23 +40,23 @@
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
 					android:text="@string/clear"></Button>
 			<Button
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
 					android:id="@+id/bracketLeft"
 					android:text="@string/bracket_left"></Button>
 			<Button
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
 					android:id="@+id/bracketRight"
 					android:text="@string/bracket_right"
 					></Button>
@@ -63,9 +64,9 @@
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"
-					android:layout_marginEnd="5dp"
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:layout_marginEnd="2dp"
 					android:id="@+id/delenie"
 					android:text="@string/delenie"></Button>
 		</LinearLayout>
@@ -78,27 +79,35 @@
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:id="@+id/btn_7"
+					android:text="@string/btn_7"></Button>
 			<Button
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:id="@+id/btn_8"
+					android:text="@string/btn_8"></Button>
 			<Button
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:id="@+id/btn_9"
+					android:text="@string/btn_9"></Button>
 			<Button
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"
-					android:layout_marginEnd="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:layout_marginEnd="2dp"
+					android:id="@+id/proizvedenie"
+					android:text="@string/proizvedenie"></Button>
 		</LinearLayout>
 		<LinearLayout
 				android:layout_width="match_parent"
@@ -109,27 +118,35 @@
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:id="@+id/btn_4"
+					android:text="@string/btn_4"></Button>
 			<Button
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:id="@+id/btn_5"
+					android:text="@string/btn_5"></Button>
 			<Button
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:id="@+id/btn_6"
+					android:text="@string/btn_6"></Button>
 			<Button
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"
-					android:layout_marginEnd="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:layout_marginEnd="2dp"
+					android:id="@+id/vichitanie"
+					android:text="@string/vichitanie"></Button>
 		</LinearLayout>
 		<LinearLayout
 				android:layout_width="match_parent"
@@ -140,27 +157,36 @@
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:id="@+id/btn_1"
+					android:text="@string/btn_1"
+					></Button>
 			<Button
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:id="@+id/btn_2"
+					android:text="@string/btn_2"></Button>
 			<Button
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:id="@+id/btn_3"
+					android:text="@string/btn_3"></Button>
 			<Button
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"
-					android:layout_marginEnd="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:layout_marginEnd="2dp"
+					android:id="@+id/summa"
+					android:text="@string/summa"></Button>
 		</LinearLayout>
 		<LinearLayout
 				android:layout_width="match_parent"
@@ -171,20 +197,36 @@
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:id="@+id/btn_0"
+					android:text="@string/btn_0"></Button>
 			<Button
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:id="@+id/btn_dot"
+					android:text="@string/btn_dot"></Button>
 			<Button
 					android:layout_width="match_parent"
 					android:layout_height="match_parent"
 					android:layout_weight="1"
-					android:layout_marginBottom="5dp"
-					android:layout_marginStart="5dp"></Button>
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:id="@+id/reverse"
+					android:text="@string/reverse"></Button>
+			<Button
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:layout_marginBottom="2dp"
+					android:layout_marginStart="2dp"
+					android:layout_marginEnd="2dp"
+					android:id="@+id/ravno"
+					android:text="@string/ravno"></Button>
+
 		</LinearLayout>
 	</LinearLayout>
 </LinearLayout>
