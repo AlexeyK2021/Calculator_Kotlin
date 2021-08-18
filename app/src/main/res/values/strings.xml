@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculator_Kotlin</string>
+    <string name="clear">C</string>
+    <string name="bracket_left">(</string>
+    <string name="bracket_right">)</string>
+    <string name="delenie">/</string>
+    <string name="proizvedenie">*</string>
+    <string name="summa">+</string>
+    <string name="dschitanie">-</string>
+    <string name="ravno">=</string>
+</resources>
